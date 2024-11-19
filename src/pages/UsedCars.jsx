@@ -72,7 +72,7 @@ const UsedCars = () => {
     <>
       <div className="flex flex-col justify-start items-start gap-8 w-screen h-full">
       {usedcars.map((usedcar, index) => (
-        <UsedCarsCarousel pid={usedcar._id} auth={auth} uid={uid} />
+        <UsedCarsCarousel  />
       ))}
         </div>
       
