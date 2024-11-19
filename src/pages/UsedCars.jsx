@@ -54,18 +54,18 @@ const UsedCars = () => {
       </>
     )
   }
-  if (!usedcars || usedcars.length === 0) {
-    return (
-      <>
-        <div className='w-screen h-[90vh] flex flex-col justify-center items-center'>
-          <TriangleAlert className='text-orange-400 h-12 w-12' />
-          <p>
-            No Products Available !
-          </p>
-        </div>
-      </>
-    )
-  }
+  // if (!usedcars || usedcars.length === 0) {
+  //   return (
+  //     <>
+  //       <div className='w-screen h-[90vh] flex flex-col justify-center items-center'>
+  //         <TriangleAlert className='text-orange-400 h-12 w-12' />
+  //         <p>
+  //           No Products Available !
+  //         </p>
+  //       </div>
+  //     </>
+  //   )
+  // }
 
 
   return (
